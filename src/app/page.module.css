@@ -166,3 +166,17 @@ a.secondary {
     filter: invert();
   }
 }
+
+.link{
+  color: khaki;
+}
+
+.link:hover {
+  text-decoration: none;
+  text-decoration-color: transparent;
+  color: azure;
+}
+
+#specialLink{
+  color: lightcoral;
+}

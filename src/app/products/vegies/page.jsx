@@ -23,7 +23,9 @@ function page(){
 
     return (
       <>
-    <h1>Vergies menu</h1><br />
+
+      <div>
+         <h1>Vergies menu</h1><br />
 
     <ul>
       {vegie.map((vegies) => {
@@ -38,6 +40,9 @@ function page(){
     </ul>
     <br />
     <button><Link href="/products">Products page</Link></button>
+
+      </div>
+   
     </>
 
     )

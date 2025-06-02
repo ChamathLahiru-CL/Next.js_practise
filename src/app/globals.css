@@ -40,3 +40,27 @@ a {
     color-scheme: dark;
   }
 }
+
+h1{
+  color: aqua;
+}
+
+.row{
+  padding: 1em;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: aliceblue;
+  color: black;
+}
+
+.raw.h1 {
+  font-size: 2em;
+  margin-bottom: 0.5em;
+  color: darkblue;
+}
+.wrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+}
