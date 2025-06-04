@@ -1,6 +1,7 @@
 import Image from "next/image";
 import styles from "./page.module.css";
 import Link from 'next/link';
+import img1 from "../../public/wpa.jpg"
 
 export default function Home() {
   return (
@@ -18,6 +19,11 @@ export default function Home() {
           <li><Link href="https://nextjs.org/" target='_blank'id={styles.specialLink}>NextJS Site</Link></li>
       </ul>
       </h3>
+
+      <h1>Image Component</h1>
+        <Image
+          src={img1}
+        />
       
     </div>
     </>
